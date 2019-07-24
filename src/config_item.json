@@ -1,0 +1,20 @@
+{
+  "enable" : true,
+  "password" : "PASSWORD",
+  "method" : "aes-256-cfb",
+  "remarks" : "New Server",
+  "server" : "a.isxb.top",
+  "kcptun" : {
+    "nocomp" : false,
+    "key" : "it's a secrect",
+    "crypt" : "aes",
+    "datashard" : 10,
+    "mtu" : 1350,
+    "mode" : "fast",
+    "parityshard" : 3,
+    "arguments" : ""
+  },
+  "enabled_kcptun" : false,
+  "server_port" : 17403,
+  "remarks_base64" : "TmV3IFNlcnZlcg=="
+}
