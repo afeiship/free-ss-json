@@ -3,7 +3,7 @@ const fs = require('fs');
 const configItem = require('./config_item.json');
 const exportTmpl = require('./export_tmpl.json');
 
-puppeteer.launch({ headless: false }).then(async (browser) => {
+puppeteer.launch({ headless: true }).then(async (browser) => {
   const startTime = Date.now();
   const page = await browser.newPage();
   await page.setJavaScriptEnabled(true);
